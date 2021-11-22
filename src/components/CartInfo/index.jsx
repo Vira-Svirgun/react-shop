@@ -11,7 +11,7 @@ const CartInfo = ({ title, description, imgUrl }) => {
       <h2>{title}</h2>
       <p>{description}</p>
       <button onClick={() => setCartOpened(false)} className={styles.greenBtn}>
-        <img src="/img/arrow.svg" alt="Arrow" />
+        <img src="img/arrow.svg" alt="Arrow" />
         Вернуться назад
       </button>
     </div>

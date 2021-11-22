@@ -45,7 +45,7 @@ function Drawer({ onClose, onRemove, cartOpened, items = [] }) {
             Корзина
             <img
               className={styles.removeBtn}
-              src="/img/btn-remove.svg"
+              src="img/btn-remove.svg"
               alt="Close"
               width="20px"
               height="20px"
@@ -70,7 +70,7 @@ function Drawer({ onClose, onRemove, cartOpened, items = [] }) {
                         <img
                           onClick={() => onRemove(obj.id)}
                           className={styles.removeBtn}
-                          src="/img/btn-remove.svg"
+                          src="img/btn-remove.svg"
                           alt="Remove"
                         ></img>
                       </div>
@@ -98,7 +98,7 @@ function Drawer({ onClose, onRemove, cartOpened, items = [] }) {
                   className={styles.greenBtn}
                 >
                   Оформить заказ
-                  <img src="/img/arrow.svg" alt="Arrow" />
+                  <img src="img/arrow.svg" alt="Arrow" />
                 </button>
               </div>
             </>
@@ -112,8 +112,8 @@ function Drawer({ onClose, onRemove, cartOpened, items = [] }) {
               }
               imgUrl={
                 isOrderComplete
-                  ? "/img/complete-order.jpg"
-                  : "/img/empty-cart.jpg"
+                  ? "img/complete-order.jpg"
+                  : "img/empty-cart.jpg"
               }
             />
           )}

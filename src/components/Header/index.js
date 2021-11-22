@@ -10,7 +10,7 @@ function Header(props) {
       <header>
         <Link to="/">
           <div className={styles.left}>
-            <img className={styles.logo} src="/img/logo.png" alt="" />
+            <img className={styles.logo} src="img/logo.png" alt="" />
             <div>
               <h3>Baseball caps</h3>
               <p>Магазин лучших бейсболок</p>
@@ -21,7 +21,7 @@ function Header(props) {
           <li className={styles.cart} onClick={props.onClickCart}>
             <img
               className={styles.cart__img}
-              src="/img/cart.svg"
+              src="img/cart.svg"
               alt="Cart"
             ></img>
             <span>{totalPrice} грн.</span>
@@ -30,14 +30,14 @@ function Header(props) {
             <Link to="/favorites">
               <img
                 className={styles.favorites}
-                src="/img/heart.svg"
+                src="img/heart.svg"
                 alt="Favorites"
               ></img>
             </Link>
           </li>
           <li>
             <Link to="/orders">
-              <img className={styles.user} src="/img/user.svg" alt="User"></img>
+              <img className={styles.user} src="img/user.svg" alt="User"></img>
             </Link>
           </li>
         </ul>
