@@ -40,11 +40,11 @@ function Home({
               <img
                 onClick={() => setSearchValue("")}
                 className="clear"
-                src="/img/btn-remove.svg"
+                src="img/btn-remove.svg"
                 alt="Clear"
               ></img>
             )}
-            <img className="search__img" src="/img/search.svg" alt="Search" />
+            <img className="search__img" src="img/search.svg" alt="Search" />
             <input
               onChange={changeSearchValue}
               value={searchValue}
